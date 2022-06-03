@@ -1,0 +1,53 @@
+body{
+    background-color: #171715;
+}
+/*
+.Contenedor_Principal{
+    background-color: red;    
+}
+*/
+.Titulo{
+    color: white;
+    font-size: 3rem;
+    font-family: 'Press Start 2P', cursive;
+    margin: 2rem;
+}
+.Titulo2{
+    color: #00fd08;
+    font-size: 3rem;
+    font-family: 'Press Start 2P', cursive;
+    margin: 2rem;
+}
+.Data{
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+    margin-top: 2rem;
+}
+.Columna{
+    border-style: solid;
+    border-width: 2px;
+    border-color: #123a4e;
+    padding: 0px;
+}
+.Botones{
+    height: 100%;
+    width: 100%;
+    padding: 35%;
+    font-size: 1rem;
+    background-color: #17657f;
+    border-style: none;
+}
+.Botones:hover{
+    background-color: #11ddf8;
+}
+.Triki{
+    background-color: #b10e8b !important;
+}
+
+/*
+.color1 {color: #081a27;}
+.color2 {color: #123a4e;}
+.color3 {color: #17657f;}
+.color4 {color: #159bb8;}
+.color5 {color: #11ddf8;}
+*/
