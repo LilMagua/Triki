@@ -65,8 +65,22 @@ function Verificar_Estado(){
     else if(Botones[2].value != "" && Botones[2].value == Botones[4].value && Botones[4].value == Botones[6].value){
         Marcar(Boton0.value, Boton2, Boton4, Boton6);
     }
-}
 
+    //Empate
+    else if(Botones[0].value != "" && Botones[1].value != "" && Botones[2].value != "" && Botones[3].value != "" && Botones[4].value != "" && Botones[5].value != "" && Botones[6].value != "" && Botones[7].value != "" && Botones[8].value != "" ){
+        Botones[0].classList.add("Triki");
+        Botones[1].classList.add("Triki");
+        Botones[2].classList.add("Triki");
+        Botones[3].classList.add("Triki");
+        Botones[4].classList.add("Triki");
+        Botones[5].classList.add("Triki");
+        Botones[6].classList.add("Triki");
+        Botones[7].classList.add("Triki");
+        Botones[8].classList.add("Triki");
+        Div_Nombre_Ganador.innerHTML = "Empate";
+        setTimeout(Limpiar,5000);
+    }
+}
 
 
 function Marcar(Ganador,Primer_B,Segundo_B,Tercer_B){
@@ -84,6 +98,7 @@ function Marcar(Ganador,Primer_B,Segundo_B,Tercer_B){
 
    setTimeout(Limpiar, 5000);
 }
+
 
 function Limpiar(){
     for(var i = 0; i<Botones.length; i++){
