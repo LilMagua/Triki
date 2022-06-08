@@ -4,6 +4,7 @@ body{
 /*
 .Contenedor_Principal{
     background-color: red;    
+    
 }
 */
 .Titulo{
@@ -42,12 +43,26 @@ body{
 }
 .Triki{
     background-color: #b10e8b !important;
+    animation-duration: 2s;
+    animation-name: Resaltar;
 }
 
-/*
-.color1 {color: #081a27;}
-.color2 {color: #123a4e;}
-.color3 {color: #17657f;}
-.color4 {color: #159bb8;}
-.color5 {color: #11ddf8;}
-*/
+  
+  @keyframes Resaltar {
+    0%{
+        transform: rotate(0deg); 
+    }
+  
+    33% {
+        transform: rotate(10deg);
+        height: 110%;
+        width: 110%;
+    }
+    66%{
+        transform: rotate(-10deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+  }
+  
